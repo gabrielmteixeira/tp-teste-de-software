@@ -1,7 +1,6 @@
-# PlutoSystem
-
-See [docs/README.md](/docs/README.md) for information on how the system should
-work.
+Members:
+Gabriel Teixeira - 2020054420
+Ilana Virginia Barbosa - 2019086969
 
 ## Building and running
 
