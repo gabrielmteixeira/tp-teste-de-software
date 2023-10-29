@@ -1,0 +1,1 @@
+export { Rendas } from './Rendas';
