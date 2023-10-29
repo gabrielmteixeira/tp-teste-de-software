@@ -6,7 +6,7 @@ Ilana Virginia Barbosa - 2019086969
 
 
 ### Descrição
-O sistema de gerenciamento financeiro oferece um conjunto abrangente de ferramentas para o controle de finanças pessoais. Nele, usuários podem não apenas registrar e categorizar despesas e receitas, mas também estabelecer metas e orçamentos específicos. Além disso, o sistema fornece gráficos para uma fácil visualização do estado financeiro e permite que os usuários compartilhem o controle das finanças com parceiros ou familiares.
+O sistema de gerenciamento financeiro oferece um conjunto de ferramentas para o controle de finanças pessoais. Nele, usuários podem registrar e categorizar despesas e receitas, manualmente ou por meio de um csv. Além disso, o sistema fornece gráficos para uma fácil visualização dos gastos e despesas e permite que os usuários tenham uma visão intuitiva da sua saúde financeira.
 
 O sistema é construído com base na Arquitetura Hexagonal. Essa abordagem promove uma clara divisão entre as classes que gerenciam a lógica de negócios (domínio) e aquelas que interagem com recursos externos, como bancos de dados (não domínio). Esse design facilita tanto a manutenção quanto a escalabilidade do sistema.
 
