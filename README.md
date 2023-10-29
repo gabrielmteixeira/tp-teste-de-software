@@ -10,6 +10,8 @@ O sistema de gerenciamento financeiro oferece um conjunto de ferramentas para o 
 
 O sistema é construído com base na Arquitetura Hexagonal. Essa abordagem promove uma clara divisão entre as classes que gerenciam a lógica de negócios (domínio) e aquelas que interagem com recursos externos, como bancos de dados (não domínio). Esse design facilita tanto a manutenção quanto a escalabilidade do sistema.
 
+![Imagem de descrição da arquitetura do sistema](https://github.com/gabrielmteixeira/tp-teste-de-software/blob/master/arquitetura_sistema.png)
+
 ### Tecnologias
 O sistema é desenvolvido usando uma combinação de tecnologias que maximizam a eficiência e a escalabilidade. Python e Flask formam a base do back-end, facilitando um desenvolvimento rápido e estável. A gestão de dependências é simplificada através do Poetry, enquanto a confiabilidade é assegurada por testes automatizados com Pytest. O banco de dados Postgres contribui para a performance e escalabilidade.
 
