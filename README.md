@@ -6,7 +6,9 @@ Ilana Virginia Barbosa - 2019086969
 
 
 ### Descrição
-O sistema de gerenciamento financeiro permite que os usuários registrem ganhos e despesas, classifiquem-nos em categorias e definam metas e orçamentos. Ele também oferece a opção de visualizar todos esses dados por meio de gráficos informativos. Além disso, os usuários podem compartilhar o controle financeiro com parceiros, familiares ou outros, o que torna o sistema flexível e adaptável a diferentes necessidades.
+O sistema de gerenciamento financeiro oferece um conjunto abrangente de ferramentas para o controle de finanças pessoais. Nele, usuários podem não apenas registrar e categorizar despesas e receitas, mas também estabelecer metas e orçamentos específicos. Além disso, o sistema fornece gráficos para uma fácil visualização do estado financeiro e permite que os usuários compartilhem o controle das finanças com parceiros ou familiares.
+
+O sistema é construído com base na Arquitetura Hexagonal. Essa abordagem promove uma clara divisão entre as classes que gerenciam a lógica de negócios (domínio) e aquelas que interagem com recursos externos, como bancos de dados (não domínio). Esse design facilita tanto a manutenção quanto a escalabilidade do sistema.
 
 ### Tecnologias
 O sistema é desenvolvido usando uma combinação de tecnologias que maximizam a eficiência e a escalabilidade. Python e Flask formam a base do back-end, facilitando um desenvolvimento rápido e estável. A gestão de dependências é simplificada através do Poetry, enquanto a confiabilidade é assegurada por testes automatizados com Pytest. O banco de dados Postgres contribui para a performance e escalabilidade.
